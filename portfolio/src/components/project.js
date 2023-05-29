@@ -1,0 +1,1 @@
+// This component will represent each project in portfolio.

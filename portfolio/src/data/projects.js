@@ -1,0 +1,1 @@
+// define an array of project objects with the necessary information for each project (title, image, deployed app link, GitHub link).

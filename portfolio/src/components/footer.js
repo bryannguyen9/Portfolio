@@ -1,0 +1,1 @@
+// This component will display the footer section of portfolio.
