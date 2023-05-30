@@ -1,27 +1,28 @@
-// This will serve as the main component of application.
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/header';
-import Navigation from './components/navigation';
-import Project from './components/project';
-import Footer from './components/footer';
-import Contact from './components/contact';
 import About from './components/about';
+import Portfolio from './components/portfolio';
+import Contact from './components/contact';
 import Resume from './components/resume';
+import Footer from './components/footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Navigation />
-      <div className="content">
-        <About />
-        <Project />
-        <Contact />
-        <Resume />
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/resume" component={Resume} />
+        </Switch>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

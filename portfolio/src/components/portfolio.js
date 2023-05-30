@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-function Project() {
+function Portfolio() {
   return (
-    <project>
+    <portfolio>
       {/* Add your Project content here */}
-    </project>
+    </portfolio>
   );
 }
 
-export default Project;
+export default Portfolio;
