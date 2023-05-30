@@ -5,7 +5,7 @@ function Resume() {
     <resume>
       <h2>Resume</h2>
       <p>Download my resume:</p>
-      <a href="/Assets/resume.pdf" download>
+      <a href="../Assets/resume.pdf" download>
         Download PDF
       </a>
       <h3>My Developer Proficiencies and Skills</h3>
