@@ -1,45 +1,41 @@
 import React from 'react';
-import githubLogo from '../Assets/images/githublogo.png';
-import linkedinIcon from '../Assets/images/linkedinicon.png';
 
 function Contact() {
-  const links = [
-    {
-      title: 'Github Profile',
-      url: 'https://github.com/bryannguyen9',
-      image: githubLogo
-    },
-    {
-      title: 'LinkedIn Profile',
-      url: 'https://www.linkedin.com/in/bryannguyen9/',
-      image: linkedinIcon
-    },
-    {
-      title: 'Github.com',
-      url: 'https://github.com/',
-      image: githubLogo
-    }
-  ];
+  const contactContent = {
+    title: 'Contact Me',
+    subtitle: 'Feel free to reach out to me!',
+    items: [
+      {
+        title: 'Email',
+        value: <a href="mailto:bryannguyen9@yahoo.com">bryannguyen9@yahoo.com</a>
+      },
+      {
+        title: 'Phone (Mobile)',
+        value: <a href="tel:+17146517880">(714) 651-7880</a>
+      },
+      {
+        title: 'LinkedIn',
+        value: <a href="https://www.linkedin.com/in/bryannguyen9/">bryannguyen9</a>
+      }
+    ]
+  };
 
   return (
-    <section id="links-content">
-      <h2>Links</h2>
-      <nav>
-        <ul>
-          {links.map((link, index) => (
-            <figure className="links" id="links-card" key={index}>
-              <li>
-                <a href={link.url}>{link.title}</a>
-                <br />
-                <a href={link.url}>
-                  <img src={link.image} alt={link.title} />
-                </a>
+    <contact>
+      <h2>{contactContent.title}</h2>
+      <h3>
+        <nav>
+          <ul>
+            {contactContent.items.map((item, index) => (
+              <li key={index}>
+                {item.label}
+                <span>{item.value}</span>
               </li>
-            </figure>
-          ))}
-        </ul>
-      </nav>
-    </section>
+            ))}
+          </ul>
+        </nav>
+      </h3>
+    </contact>
   );
 }
 
