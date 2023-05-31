@@ -1,72 +1,70 @@
-# React Portfolio
+# Getting Started with Create React App
 
-## Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is my Portfolio that is built using React and is a web application that showcases my portfolio and projects. It provides an interactive and visually appealing way to present information about the developer's skills, projects, and contact details.
+## Available Scripts
 
-[Visit My Live Site Here!](https://bryannguyen9.github.io/Portfolio/)
+In the project directory, you can run:
 
-## Table of Contents
+### `npm start`
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Components](#components)
-- [Technologies Used](#technologies-used)
-- [Links](#links)
-- [License](#license)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-If you would like to view it on your local computer:
+### `npm test`
 
-1. Clone the repository or download the source code files.
-2. Make sure you have Node.js and npm installed on your machine.
-3. Navigate to the project directory in your terminal.
-4. Install the required dependencies by running the following command:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-   ```bash
-   npm install
-   ```
+### `npm run build`
 
-5. Start the development server by running the following command:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-   ```bash
-   npm start
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-6. The React Portfolio should now be running on `http://localhost:3000`.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Usage
+### `npm run eject`
 
-The React Portfolio provides an interactive interface to showcase your projects and information. It dynamically renders project cards based on the data provided in the `projects.js` file. Each project card displays the project title, description, and relevant links (such as GitHub and live site). Users can click on the project card to view more details about the project.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Components
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-The React Portfolio consists of the following components:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- `App`: The main component that renders the overall structure of the portfolio.
-- `Header`: Displays the portfolio title and navigation links.
-- `Portfolio`: Renders the project cards based on the data provided in `projects.js`.
-- `ProjectCard`: Displays information about each project, including title, description, and links.
-- `Footer`: Shows the contact information and links to your portfolio, LinkedIn, and GitHub.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Technologies Used
+## Learn More
 
-The React Portfolio is built using the following technologies and packages:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- React.js: A JavaScript library for building user interfaces.
-- Tailwind CSS: A utility-first CSS framework for styling the components.
-- HTML5: The standard markup language for creating web pages.
-- CSS3: The style sheet language used for describing the look and formatting of a document.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Links
+### Code Splitting
 
-You can find my links below:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- [Portfolio](https://bryannguyen9.github.io/Portfolio/)
-- [LinkedIn](https://linkedin.com/in/your-linkedin-username)
-- [GitHub](https://github.com/your-github-username)
+### Analyzing the Bundle Size
 
-## License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-This project is licensed under the [MIT License](./LICENSE).
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
