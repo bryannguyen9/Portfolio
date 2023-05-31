@@ -1,0 +1,10 @@
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer-icon {
+    font-size: 55px;
+  }

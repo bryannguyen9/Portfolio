@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 0.5rem;
+  }
+  

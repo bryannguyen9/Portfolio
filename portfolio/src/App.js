@@ -6,7 +6,8 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import Footer from './components/footer';
-import './App.css';
+import './styles/App.css';
+import './styles/tailwind.css';
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path="/" component={About} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </div>
