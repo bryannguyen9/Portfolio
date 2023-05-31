@@ -24,11 +24,37 @@ function Portfolio() {
             href={project.liveSite || project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-card bg-gray-200 rounded-lg shadow-md p-4 transform transition-transform duration-300 hover:scale-105"
+            className="project-card bg-gray-200 rounded-lg shadow-md p-4 relative overflow-hidden"
           >
             <h3 className="text-lg font-bold mb-2">{project.title}</h3>
-            <p>{project.description}</p>
-            <img src={project.image} alt={project.title} className="mt-4" />
+            <p className="mb-4">{project.description}</p>
+            <div className="flex justify-center items-center absolute bottom-0 left-0 right-0 p-2 bg-black bg-opacity-75 transition-opacity duration-300 opacity-0">
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white mx-1"
+                >
+                  <i className="fab fa-github fa-lg"></i>
+                </a>
+              )}
+              {project.liveSite && (
+                <a
+                  href={project.liveSite}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white mx-1"
+                >
+                  <i className="fas fa-external-link-alt fa-lg"></i>
+                </a>
+              )}
+            </div>
+            <img
+              src={require(`../Assets/${project.image}`).default}
+              alt={project.title}
+              className="mt-4"
+            />
           </a>
         ))}
       </div>
