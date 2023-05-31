@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.718855e5.css",
-    "main.js": "/portfolio/static/js/main.62059f8a.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/cheerio.png": "/portfolio/static/media/cheerio.7acaf12523bd4e698aa8.png",
-    "static/media/image0.jpg": "/portfolio/static/media/image0.756b0bcb940c58b0cd96.jpg",
-    "static/media/myicon.png": "/portfolio/static/media/myicon.6f7acd80014663f98370.png",
-    "static/media/melore.png": "/portfolio/static/media/melore.375743b982e60448ef2a.png",
-    "static/media/readmegen.png": "/portfolio/static/media/readmegen.7197798727295338240d.png",
-    "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.8eba3894b44a26169e15.jpg",
-    "static/media/geekgossip.png": "/portfolio/static/media/geekgossip.c5e071ea9318cc2820ef.png",
-    "static/media/notebook.png": "/portfolio/static/media/notebook.874fca4232fc3ddfb8b5.png",
-    "static/media/passgen.png": "/portfolio/static/media/passgen.37d8eef0bc71190ebb4e.png",
-    "index.html": "/portfolio/index.html",
-    "main.718855e5.css.map": "/portfolio/static/css/main.718855e5.css.map",
-    "main.62059f8a.js.map": "/portfolio/static/js/main.62059f8a.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.718855e5.css",
+    "main.js": "/Portfolio/static/js/main.a031558b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cheerio.png": "/Portfolio/static/media/cheerio.7acaf12523bd4e698aa8.png",
+    "static/media/image0.jpg": "/Portfolio/static/media/image0.756b0bcb940c58b0cd96.jpg",
+    "static/media/myicon.png": "/Portfolio/static/media/myicon.6f7acd80014663f98370.png",
+    "static/media/melore.png": "/Portfolio/static/media/melore.375743b982e60448ef2a.png",
+    "static/media/readmegen.png": "/Portfolio/static/media/readmegen.7197798727295338240d.png",
+    "static/media/profilepic.jpg": "/Portfolio/static/media/profilepic.8eba3894b44a26169e15.jpg",
+    "static/media/geekgossip.png": "/Portfolio/static/media/geekgossip.c5e071ea9318cc2820ef.png",
+    "static/media/notebook.png": "/Portfolio/static/media/notebook.874fca4232fc3ddfb8b5.png",
+    "static/media/passgen.png": "/Portfolio/static/media/passgen.37d8eef0bc71190ebb4e.png",
+    "index.html": "/Portfolio/index.html",
+    "main.718855e5.css.map": "/Portfolio/static/css/main.718855e5.css.map",
+    "main.a031558b.js.map": "/Portfolio/static/js/main.a031558b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.718855e5.css",
-    "static/js/main.62059f8a.js"
+    "static/js/main.a031558b.js"
   ]
 }
