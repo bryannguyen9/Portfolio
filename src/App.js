@@ -9,18 +9,23 @@ import Footer from './components/footer';
 import './styles/App.css';
 import './styles/tailwind.css';
 
-function App() {
+function Content() {
   const navigate = useNavigate();
 
   React.useEffect(() => {
     navigate('/about');
-  }, []);
+  }, [navigate]);
 
+  return null;
+}
+
+function App() {
   return (
     <Router>
       <div className="App">
         <Header />
         <Routes>
+          <Route path="/" element={<Content />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
