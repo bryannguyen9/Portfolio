@@ -1,3 +1,10 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional, to center vertically */
+  }

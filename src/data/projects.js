@@ -12,6 +12,13 @@ const projects = [
     image: "cheerio.png",
   },
   {
+    title: "Gourmet Gauntlet",
+    description: "A Savory Yet Sweet Card Game!",
+    github: "https://github.com/bryannguyen9/Gourmet-Gauntlet",
+    liveSite: "https://gourmet-gauntlet.herokuapp.com/",
+    image: "gourmetgauntlet.gif",
+  }, 
+  {
     title: "MeloRE:",
     description: "Music Application that allows users to connect through their Spotify Account and see their playlists and music data.",
     github: "https://github.com/bryannguyen9/MeloRE-",
@@ -25,24 +32,17 @@ const projects = [
     image: "passgen.png",
   },
   {
-    title: "Geek Gossip",
-    description: "Social Application that allows users to share, like, and comment on posts with their individual accounts.",
-    github: "https://github.com/bryannguyen9/Geek-Gossip",
-    liveSite: "https://sleepy-springs-08377.herokuapp.com/",
-    image: "geekgossip.png",
-  },
-  {
     title: "Readme Generator",
     description: "Readme Generator that automates every developers worst nightmare.",
     github: "https://github.com/bryannguyen9/readme-generator",
     image: "readmegen.png",
   },
   {
-    title: "NoteBook",
-    description: "Note taking application that allows users to create, save, and delete notes with a simple user interface.",
-    github: "https://github.com/bryannguyen9/NoteBook",
-    liveSite: "https://note-book-buddy-taker-app.herokuapp.com/",
-    image: "notebook.png",
+    title: "Geek Gossip",
+    description: "Social Application that allows users to share, like, and comment on posts with their individual accounts.",
+    github: "https://github.com/bryannguyen9/Geek-Gossip",
+    liveSite: "https://sleepy-springs-08377.herokuapp.com/",
+    image: "geekgossip.png",
   },
 ];
 
