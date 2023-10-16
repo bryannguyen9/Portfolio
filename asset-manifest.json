@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.925c27a6.css",
-    "main.js": "/Portfolio/static/js/main.f1ed5336.js",
+    "main.css": "/Portfolio/static/css/main.536efd8e.css",
+    "main.js": "/Portfolio/static/js/main.896ac710.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/cheerio.png": "/Portfolio/static/media/cheerio.7acaf12523bd4e698aa8.png",
     "static/media/gourmetgauntlet.gif": "/Portfolio/static/media/gourmetgauntlet.ff8d0843bbdbe16d9a45.gif",
@@ -12,12 +12,12 @@
     "static/media/geekgossip.png": "/Portfolio/static/media/geekgossip.c5e071ea9318cc2820ef.png",
     "static/media/passgen.png": "/Portfolio/static/media/passgen.37d8eef0bc71190ebb4e.png",
     "index.html": "/Portfolio/index.html",
-    "main.925c27a6.css.map": "/Portfolio/static/css/main.925c27a6.css.map",
-    "main.f1ed5336.js.map": "/Portfolio/static/js/main.f1ed5336.js.map",
+    "main.536efd8e.css.map": "/Portfolio/static/css/main.536efd8e.css.map",
+    "main.896ac710.js.map": "/Portfolio/static/js/main.896ac710.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.925c27a6.css",
-    "static/js/main.f1ed5336.js"
+    "static/css/main.536efd8e.css",
+    "static/js/main.896ac710.js"
   ]
 }
