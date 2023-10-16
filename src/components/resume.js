@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/tailwind.css';
+import resumePDF from '../Assets/resume.pdf'
 
 function Resume() {
   return (
@@ -7,7 +8,7 @@ function Resume() {
       <h2 className="text-3xl font-bold mb-4">Resume</h2>
       <hr className="w-3/4 border-t-2 border-gray-300 opacity-50 my-10" />
       <p className='text-xl font-semibold'>Download my resume:</p>
-      <a href="/resume.pdf" download className="text-xl text-blue-500 font-bold">
+      <a href={resumePDF} download className="text-xl text-blue-500 font-bold">
         Download PDF
       </a>
       <h2 className="text-3xl font-bold mb-4 mt-10">My Developer Proficiencies and Skills:</h2>
