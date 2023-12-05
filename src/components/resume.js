@@ -4,7 +4,7 @@ import resumePDF from '../Assets/resume.pdf'
 
 function Resume() {
   return (
-    <div className="flex flex-col items-center justify-center py-10">
+    <div className="flex flex-col items-center justify-center py-10 bg-black text-white">
       <h2 className="text-3xl font-bold mb-4">Resume</h2>
       <hr className="w-3/4 border-t-2 border-gray-300 opacity-50 my-10" />
       <p className='text-xl font-semibold'>Download my resume:</p>
