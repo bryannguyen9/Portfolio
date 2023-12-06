@@ -2,13 +2,19 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Assuming .image-container is the appropriate class */
 .image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Optional, to center vertically */
-  }
-
-.slick-dots li button:before {
-  color: rgba(255, 255, 255, 0.6); /* Adjust the color as needed */
+  height: 80%; /* Make sure image-container takes up the full height of the slick-slide */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.project-card {
+  height: 450px; /* Adjust the height as needed */
+}
+
+
+
+
+

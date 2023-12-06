@@ -1,7 +1,28 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
 .slick-dots li button:before {
-    color: white !important; /* Adjust the color as needed */
-  }
+  color: white !important;
+}
+
+.slick-center {
+  opacity: 1 !important;
+  transition: opacity 3s ease-in-out;
+}
+
+.slick-prev.slick-center + .slick-center,
+.slick-next.slick-center + .slick-center,
+.slick-prev + .slick-center,
+.slick-next + .slick-center {
+  opacity: 0.3;
+  transition: opacity 2s ease-in-out;
+}
+
+.slick-slide {
+  opacity: 0.3;
+  transition: opacity 2s ease-in-out;
+  height: 500px;
+}
+
+.slick-slider {
+  width: 150%; /* Adjust the width as needed */
+  margin-left: -25%; /* Half of (100% - width) */
+  margin-right: -25%; /* Half of (100% - width) */  
+}
