@@ -4,17 +4,53 @@
 
 /* Assuming .image-container is the appropriate class */
 .image-container {
-  height: 80%; /* Make sure image-container takes up the full height of the slick-slide */
+  height: 250px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .project-card {
-  height: 450px; /* Adjust the height as needed */
+  height: 350px; /* Adjust the height as needed */
 }
 
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 999px; /* Use a large value for full-rounding */
+  position: relative;
+  overflow: hidden; /* Ensure the gradient stays within the button */
+  border: 2px solid transparent; /* Initial border with transparency */
+  background-color: #0077b5; /* LinkedIn blue color */
+}
 
+.button:hover::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 2px solid transparent; /* Initial border with transparency */
+  background: #80a9d8; /* Lighter shade of LinkedIn blue */
+  border-radius: inherit;
+  opacity: 0;
+}
 
+.button:hover {
+  color: #000; /* Black text color on hover */
+  font-weight: 500;
+  border-color: #000; /* Black border color on hover */
+}
 
+/* Optionally, add a transition for smoother hover effect */
+.button {
+  transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
 
+.main-project:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
